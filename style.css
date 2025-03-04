@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #fff;
+    padding: 20px 0;
+    font-family: 'TwitterChirp', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    border-right: 1px solid #e6ecf0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sidebar-content {
+    flex: 1;
+}
+
+.sidebar-item {
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: #0f1419;
+    font-size: 15px;
+    font-weight: 400;
+    transition: background-color 0.2s;
+    border-left: 4px solid transparent;
+}
+
+.sidebar-item:hover {
+    background-color: #f7f9f9;
+    color: #1d9bf0;
+    border-left-color: #1d9bf0;
+}
+
+.sidebar-item.active {
+    color: #1d9bf0;
+    border-left-color: #1d9bf0;
+}
+
+.sidebar-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+    fill: currentColor;
+}
+
+.notification-count {
+    background-color: #1d9bf0;
+    color: white;
+    border-radius: 12px;
+    padding: 2px 8px;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.post-button {
+    background-color: #000;
+    color: white;
+    border: none;
+    border-radius: 9999px;
+    padding: 12px 24px;
+    width: 90%;
+    margin: 20px auto 10px;
+    display: block;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.post-button:hover {
+    background-color: #333;
+}
+
+.user-section {
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.user-avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background-color: #ccc; /* Placeholder color */
+}
+
+.user-name {
+    font-size: 15px;
+    color: #0f1419;
+    font-weight: 700;
+}
+
+.user-handle {
+    font-size: 13px;
+    color: #536471;
+}
+
+.more-icon {
+    margin-left: auto;
+    width: 16px;
+    height: 16px;
+    fill: #0f1419;
+}
