@@ -1,0 +1,140 @@
+
+@media screen and (min-width: 661px) {
+    .mainbody {
+        display: flex;
+    }
+    
+    .left-sb {
+        display: block;
+        flex: 0 0 259px;
+    }
+    
+    .mid {
+        display: block;
+        flex: 1;
+    }
+    
+    .right-sb {
+        display: none;
+    }
+    
+    .lsb-content {
+        padding-left: 20px; 
+        margin-left: 0; 
+        width: 100%; 
+    }
+    
+    .topttl {
+        width: 100%;
+    }
+    
+    .title-buttons {
+        width: 100%;
+    }
+    
+    .video video,
+    .video2 video {
+        width: 100%;
+        max-width: 516px;
+    }
+    
+    .postphoto {
+        width: 100%;
+        max-width: 408px;
+    }
+}
+
+
+@media screen and (min-width: 1026px) {
+    .left-sb {
+        flex: 0 0 594px;
+    }
+    
+    .lsb-content {
+        padding-left: 0; 
+        margin-left: calc(594px - 259px); 
+        width: 259px; 
+    }
+    
+    .right-sb {
+        display: block;
+        flex: 0 0 705px;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .mainbody {
+        display: flex;
+    }
+    
+    .left-sb {
+        display: none;
+    }
+    
+    .mid {
+        display: block;
+        flex: 1;
+        width: 100%;
+    }
+    
+    .right-sb {
+        display: none;
+    }
+    
+    .topttl {
+        width: 100%;
+    }
+    
+    .title-buttons {
+        width: 100%;
+    }
+    
+    .whs {
+        padding: 10px;
+    }
+    
+    .wht {
+        padding: 10px;
+    }
+    
+    .wh-below {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .video,
+    .video2 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .video video,
+    .video2 video {
+        width: 100%;
+        height: auto;
+    }
+    
+    .postphoto {
+        width: 100%;
+        height: auto;
+    }
+    
+    .reaction-area {
+        padding: 10px;
+    }
+    
+    .posts {
+        padding: 0 10px;
+    }
+    
+    .post-acc {
+        padding-left: 0;
+    }
+}
+
+.left-sb,
+.mid,
+.right-sb,
+.lsb-content {
+    transition: all 0.3s ease;
+}
